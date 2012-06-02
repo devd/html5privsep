@@ -1,0 +1,10 @@
+The code enables privilege separation of HTML5 applications, as discussed in
+our paper[1]. The master.js is the file that runs in the parent, and the
+shim.js runs in the child. Together, the two enable seamless proxying of
+privileged apis.
+
+All the code is licensed under the BSD License.
+
+[1] Privilege Separation for HTML5 Applications
+Devdatta Akhawe, Prateek Saxena, Dawn Song
+Usenix Security 2012
