@@ -145,6 +145,7 @@ sb_content=sb_content+req.responseText;
 sb_content=encodeURIComponent(sb_content);
 var fr = document.createElement("iframe");
 fr.setAttribute("frameBorder","0");
+fr.setAttribute("sandbox","allow-scripts allow-forms");
 fr.setAttribute("height","100%");
 fr.setAttribute("id",params.id);
 fr.src="data:text/html,"+sb_content;
